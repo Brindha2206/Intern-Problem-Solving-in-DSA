@@ -10,9 +10,9 @@ public class clockwise {
         System.out.println("Enter the times:");
         int times = scanner.nextInt();
         //clockwise
-        for(){
+        // for(){
             
-        }
+        // }
         scanner.close();
     }
     
