@@ -8,11 +8,11 @@ public class prefixPostfix {
             return 0;
         }
         else{
-            return array[index]+  prefix(array, index+1);
+            return array[index]+  prefix(array,pref, index+1);
         }
     }
     public static void main(String[] args) {
         int arr [] ={23,12,98,45,18,45,15,98};
-        System.out.println(prefix(arr, 0));
+        // System.out.println(prefix(arr,pref, 0));
     }
 }
